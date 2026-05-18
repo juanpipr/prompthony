@@ -346,19 +346,72 @@ OUTPUT ONLY THE FORMATTED RESPONSE. No extra text.`;
       <div style={{ position:"relative", zIndex:1, maxWidth:"820px", margin:"0 auto", padding:"48px 24px 80px" }}>
 
         {/* HEADER */}
-        <div style={{ marginBottom:"40px", position:"relative" }}>
-          <PixelBurst />
-          <div style={{ fontSize:"9px", letterSpacing:"0.4em", color:MUTED, textTransform:"uppercase", marginBottom:"10px" }}>
-            TropiCore Studio · Prompt Engine · v5.0
-          </div>
-          <h1 style={{ fontFamily:"Georgia, 'Times New Roman', serif", fontSize:"clamp(42px,7vw,68px)", fontWeight:"900", margin:"0 0 6px", lineHeight:"0.95", letterSpacing:"-0.02em", color:CREAM }}>
+        <div style={{ marginBottom:"44px", position:"relative" }}>
+          {/* Logo character — top right corner */}
+          <img
+            src="/logo.png"
+            alt="Prompthony"
+            style={{
+              position:"absolute",
+              top:"-12px",
+              right:"-8px",
+              width:"96px",
+              height:"auto",
+              userSelect:"none",
+              pointerEvents:"none",
+            }}
+          />
+
+          <h1 style={{
+            fontFamily:"'Fredoka', 'Baloo 2', sans-serif",
+            fontSize:"clamp(56px, 11vw, 96px)",
+            fontWeight:"700",
+            margin:"0 0 4px",
+            lineHeight:"0.95",
+            letterSpacing:"-0.02em",
+            color:"#3B7CD9",
+            textShadow:"0 2px 0 rgba(0,0,0,0.15)",
+          }}>
             Prompthony
-            <span style={{ fontSize:"14px", color:RED, marginLeft:"6px", verticalAlign:"super", fontFamily:"sans-serif" }}>®</span>
+            <span style={{
+              fontSize:"0.22em",
+              color:"#3B7CD9",
+              marginLeft:"4px",
+              verticalAlign:"super",
+              fontFamily:"sans-serif",
+              fontWeight:"400",
+              opacity:0.7,
+            }}>®</span>
           </h1>
-          <p style={{ color:MUTED, fontSize:"13px", margin:"10px 0 0", fontFamily:"sans-serif", lineHeight:"1.6" }}>
-            Tira tu idea en español o spanglish —<br />
-            recibe el prompt perfecto en inglés pa' la plataforma que escojas.
+          <p style={{
+            color:CREAM,
+            fontSize:"14px",
+            margin:"12px 0 4px",
+            fontFamily:"'Fredoka', 'Baloo 2', sans-serif",
+            fontWeight:"400",
+            lineHeight:"1.5",
+            maxWidth:"480px",
+          }}>
+            Tira tu idea en español o spanglish — recibe el prompt perfecto en inglés pa' la plataforma que escojas.
           </p>
+          <div style={{
+            fontSize:"11px",
+            letterSpacing:"0.15em",
+            color:MUTED,
+            textTransform:"uppercase",
+            marginTop:"18px",
+            fontFamily:"sans-serif",
+          }}>
+            Traído a ustedes por{" "}
+            <a
+              href="https://instagram.com/juanpipr"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color:GOLD, textDecoration:"none", fontWeight:"600" }}
+            >
+              @juanpipr
+            </a>
+          </div>
         </div>
 
         <div style={{ height:"1px", background:`linear-gradient(90deg, ${GOLD}44, ${BORDER}, transparent)`, marginBottom:"36px" }} />
