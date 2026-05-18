@@ -4,6 +4,7 @@ html, body {
   background: #1B2167;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Fredoka', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
 * {
